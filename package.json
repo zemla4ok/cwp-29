@@ -20,6 +20,7 @@
     "bluebird": "^3.5.1",
     "express": "^4.16.2",
     "express-graphql": "^0.6.12",
+    "graphiql": "^0.11.11",
     "graphql": "^0.13.1",
     "mysql2": "^1.5.2",
     "sequelize": "^4.35.1"
