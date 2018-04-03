@@ -1,27 +1,12 @@
 {
-  "name": "@zemla4ok/cwp-29",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zemla4ok/cwp-29.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zemla4ok/cwp-29/issues"
-  },
-  "homepage": "https://github.com/zemla4ok/cwp-29#readme",
+  "name": "graphql-sample",
+  "version": "0.1.0",
   "dependencies": {
     "bluebird": "^3.5.1",
     "express": "^4.16.2",
     "express-graphql": "^0.6.12",
-    "graphiql": "^0.11.11",
     "graphql": "^0.13.1",
+    "graphql-tools": "^2.23.1",
     "mysql2": "^1.5.2",
     "sequelize": "^4.35.1"
   }
