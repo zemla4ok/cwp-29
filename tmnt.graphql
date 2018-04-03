@@ -47,3 +47,5 @@ type Mutation {
     changeFavouritePizza (turtleId: ID!, pizzaId: ID, pizza: Int = 1): Turtle
     changeFavouriteWeapon (turtleId: ID!, weaponId: ID): Turtle
 }
+
+

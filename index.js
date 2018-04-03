@@ -33,3 +33,50 @@ app.use('/', graphqlHttp({
 
   console.log(`Server running at http://localhost:${config.port}`);
 })();
+
+
+/*filtering
+{
+	turtles{
+    id,
+    name,
+    dps,
+    color,
+    weapon{
+      name
+    },
+    favouritePizza{
+      name
+    },
+    secondFavouritePizza{
+      name
+    }    
+  }  
+}
+*/
+
+/*creating
+mutation{
+  createTurtle(turtle: {
+    name: "zek",
+    color: "pink",
+    weaponId: 1,
+    favouritePizzaId: 1,
+    secondFavoritePizzaId: 1    
+  }){
+    name
+  }
+}
+*/
+
+/*updating
+mutation{
+  updateTurtle(id: 5, turtle: {
+    name: "karlik",
+    color: "pink",
+    weaponId: 1,
+    favouritePizzaId: 1,
+    secondFavoritePizzaId: 1    
+  })
+}
+*/
